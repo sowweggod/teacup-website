@@ -1,0 +1,50 @@
+@font-face {
+  font-display: swap;
+  font-family: Caveat;
+  font-style: normal;
+  font-weight: 400;
+  src: url("caveat-v18-cyrillic_latin-regular.bfb99655.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: Caveat;
+  font-style: normal;
+  font-weight: 500;
+  src: url("caveat-v18-cyrillic_latin-500.d72ddd4b.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: Caveat;
+  font-style: normal;
+  font-weight: 600;
+  src: url("caveat-v18-cyrillic_latin-600.0ee00577.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: Caveat;
+  font-style: normal;
+  font-weight: 700;
+  src: url("caveat-v18-cyrillic_latin-700.b4377d21.woff2") format("woff2");
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, :before, :after {
+  box-sizing: inherit;
+}
+
+body {
+  color: #8e78f7;
+  font-family: Caveat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.2;
+}
+
+/*# sourceMappingURL=about.0aa61c44.css.map */

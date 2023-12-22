@@ -1,0 +1,79 @@
+@font-face {
+  font-display: swap;
+  font-family: Caveat;
+  font-style: normal;
+  font-weight: 400;
+  src: url("caveat-v18-cyrillic_latin-regular.bfb99655.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: Caveat;
+  font-style: normal;
+  font-weight: 500;
+  src: url("caveat-v18-cyrillic_latin-500.d72ddd4b.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: Caveat;
+  font-style: normal;
+  font-weight: 600;
+  src: url("caveat-v18-cyrillic_latin-600.0ee00577.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: Caveat;
+  font-style: normal;
+  font-weight: 700;
+  src: url("caveat-v18-cyrillic_latin-700.b4377d21.woff2") format("woff2");
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, :before, :after {
+  box-sizing: inherit;
+}
+
+body {
+  color: #8e78f7;
+  font-family: Caveat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.2;
+}
+
+.header-wrapper {
+  background-color: #d4f17b;
+  flex-flow: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+  margin-bottom: 70px;
+  padding: 10px 40px;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.header-wrapper .header-text {
+  font-size: 40px;
+}
+
+.main-wrapper {
+  max-width: 1400px;
+  margin: 200px auto;
+}
+
+.main-wrapper .main-text {
+  text-align: center;
+  color: #000;
+  font-size: 30px;
+}
+
+/*# sourceMappingURL=about.d36c5914.css.map */
