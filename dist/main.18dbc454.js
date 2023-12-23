@@ -614,12 +614,12 @@ document.addEventListener("DOMContentLoaded", function() {
             openCard(cardUrl);
         });
     }
+    function openCard(cardUrl) {
+        console.log("Opening card:", cardUrl);
+        window.location.assign(`../${cardUrl}.html`);
+    }
     for (const card of cardData)createCard(card.title, card.imageUrl, card.cardUrl);
 });
-function openCard(cardUrl) {
-    console.log("Opening card:", cardUrl);
-    window.location.assign(`${cardUrl}.html`);
-}
 
 },{"../assets/allDogs.svg":"7yjK6","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"7yjK6":[function(require,module,exports) {
 module.exports = require("4dce5b43cea5fe41").getBundleURL("10Mjw") + "allDogs.d2bb2c00.svg" + "?" + Date.now();

@@ -33,14 +33,12 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
+    function openCard(cardUrl) {
+        console.log('Opening card:', cardUrl);
+        window.location.assign(`../${cardUrl}.html`);
+    }
+
     for (const card of cardData) {
         createCard(card.title, card.imageUrl, card.cardUrl);
     }
 });
-
-function openCard(cardUrl) {
-    console.log('Opening card:', cardUrl);
-    window.location.assign(`${cardUrl}.html`);
-}
-
-

@@ -1,7 +1,40 @@
+/* caveat-regular - cyrillic */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Caveat';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/caveat-v18-cyrillic_latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* caveat-500 - cyrillic */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Caveat';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/caveat-v18-cyrillic_latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* caveat-600 - cyrillic */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Caveat';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/caveat-v18-cyrillic_latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* caveat-700 - cyrillic */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Caveat';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/caveat-v18-cyrillic_latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
 
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
+    font-family: Caveat;
+    font-size: 40px;
+    margin: 0 auto;
     padding: 0;
     display: flex;
     align-items: center;
@@ -11,8 +44,9 @@ body {
 }
 
 .product-card {
+    width: 80%;
     display: flex;
-    max-width: 600px;
+    max-width: 900px;
     border: 1px solid #ddd;
     overflow: hidden;
     background-color: #fff;
@@ -21,7 +55,7 @@ body {
 
 .product-image {
     flex: 1;
-    max-width: 300px;
+    max-width: 900px;
 }
 
 img {
@@ -31,10 +65,18 @@ img {
 }
 
 .product-details {
+    font-size: 20px;
     flex: 1;
     padding: 20px;
 }
 
 h2 {
+    font-size: 40px;
+    color: #8E78F7;
     margin-top: 0;
+}
+
+.product-close{
+    max-width: 5%;
+    align-self: flex-start;
 }
